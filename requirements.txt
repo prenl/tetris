@@ -1,0 +1,7 @@
+tkinter
+numpy
+random
+copy
+dotenv
+os
+Pillow
