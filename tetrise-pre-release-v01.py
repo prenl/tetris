@@ -43,7 +43,7 @@ IMAGES = [ImageTk.PhotoImage(file="images/piecesimg/0.png"),
           ImageTk.PhotoImage(file="images/piecesimg/6.png")]
 R = [[0, 1], [-1, 0]]
 
-speed: int = 825
+speed: int = 1025
 lines_deleted = 0
 lvl = 1
 field = []
