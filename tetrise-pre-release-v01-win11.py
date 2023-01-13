@@ -432,12 +432,12 @@ logo_canvas.grid(row=1, column=1, sticky="s")
 background_image = ImageTk.PhotoImage(file="images/background.jpg")
 tetris_canvas.create_image(GAME_WIDTH / 2, GAME_HEIGHT / 2, image=background_image)
 
-prediction_canvas.create_text(50, 12, text='Next shape:', font=('Bahnschrift', 17), fill='White', justify='center')
-hold_canvas.create_text(58, 12, text='Holded shape:', font=('Bahnschrift', 17), fill='White', justify='center')
+prediction_canvas.create_text(50, 12, text='Next shape:', font=('Bahnschrift', 13), fill='White', justify='center')
+hold_canvas.create_text(58, 12, text='Holded shape:', font=('Bahnschrift', 13), fill='White', justify='center')
 score_canvas.create_text(SPACE_SIZE * 2.2, SPACE_SIZE * 2.3, text=f'Score:\n{score}\n\n'
                                                                   f'Level:\n{lvl}\n\n'
                                                                   f'Lines Deleted:\n{lines_deleted}',
-                         font=('Bahnschrift', 16), fill="White", justify="center")
+                         font=('Bahnschrift', 12), fill="White", justify="center")
 
 pieces = []
 pieces.append(Piece())
