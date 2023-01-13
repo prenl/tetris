@@ -1,4 +1,4 @@
-# tetrise
+# Tetrise / SE-2203
 
 To start playing, you should install all packages from requirements.txt file. 
 
